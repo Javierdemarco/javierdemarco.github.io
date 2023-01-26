@@ -1,0 +1,75 @@
+baseurl = "https://javierdemarco.github.io"
+title = "JdM Website"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "JdM"
+
+[params]
+  author = "Javier de Marco"
+  info = "Software Engineer"
+  description = "Javier de Marco's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = ""
+  #gravatar = "javierdemarcoo@gmail.com"
+
+  favicon_32 = "/images/favicon.png"
+  favicon_16 = "/images/favicon.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/javierdemarco/"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://linkedin.com/in/javierdemarcotomas"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url  = "projects/"
+[[menu.main]]
+  name = "Courses"
+  weight = 3
+  url  = "courses/"
+[[menu.main]]
+  name = "About"
+  weight = 4
+  url = "about"
+[[menu.main]]
+  name = "Contact me"
+  weight = 5
+  url = "contact"
