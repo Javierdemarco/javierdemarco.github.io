@@ -1,11 +1,11 @@
 +++
-draft = true
+draft = false
 date = 2023-01-25T19:21:50+01:00
 title = "Don't Get Lost "
 description = "Android GPS walking App"
 slug = ""
 authors = ["Javier de Marco"]
-tags = []
+tags = ["Android", "Java", "Application"]
 categories = ["personal"]
 externalLink = ""
 series = []

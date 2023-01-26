@@ -1,11 +1,11 @@
 +++
-draft = true
+draft = false
 date = 2023-01-25T19:40:13+01:00
 title = "100 Days of Python"
 description = "Udemy Course to master Python language"
 slug = ""
 authors = ["Javier de Marco"]
-tags = []
+tags = ["programming", "python", "udemy"]
 categories = ["courses"]
 externalLink = ""
 series = []
